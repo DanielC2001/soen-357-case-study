@@ -1,0 +1,54 @@
+.content .content-container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.content .silversneakers-app-research .considerations-features-container {
+    display: flex;
+}
+
+.content .silversneakers-app-research .ux-considerations {
+    margin-right: 2rem;
+}
+
+.content .silversneakers-app-research .silversneakers-img-container {
+    text-align: center;
+}
+
+.content .silversneakers-app-research .silversneakers-img {
+    height: auto;
+    width: 50%;
+}
+
+.content .research-container h2 {
+    padding-top: 49px;
+}
+
+.content .fitbit-app-research .fitbit-imgs-container {
+    display: flex;
+}
+
+.content .fitbit-app-research .fitbit-imgs-container .fitbit-img1{
+    height: auto;
+    width: 50%;
+}
+
+.content .fitbit-app-research .fitbit-imgs-container .fitbit-img2{
+    height: auto;
+    width: 50%;
+}
+
+.content .evergreen-app-research .new-design-imgs-container img {
+    height: auto;
+    width: 50%;
+}
+
+.content .evergreen-app-research .new-design-imgs-container .new-eg-img2 {
+    max-height: 384px;
+}
+
+.content .evergreen-app-research .new-design-imgs-container .new-eg-img3 {
+    width: 100%;
+}

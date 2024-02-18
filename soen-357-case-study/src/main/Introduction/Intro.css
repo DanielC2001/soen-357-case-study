@@ -1,0 +1,32 @@
+.intro-component .intro-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.intro-component .intro-container .img-container {
+    width: 50%;
+    height: 500px;
+    text-align: left;
+    position: relative;
+    margin-left: -1px;
+}
+
+.intro-component .intro-container .title-names-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-component .content-container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.intro-component .content-container h2 {
+    padding-top: 49px;/* Height of navbar*/
+}
