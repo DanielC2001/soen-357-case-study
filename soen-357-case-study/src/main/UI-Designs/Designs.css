@@ -1,0 +1,26 @@
+.content .designs-container .personas-container img {
+    height: auto;
+    width: 100%;
+}
+
+.content .designs-container .personas-container button {
+    top: calc(4% + 37px);
+}
+
+.content .designs-container h2 {
+    padding-top: 49px;/* Height of navbar*/
+}
+
+.content .designs-container .wireframes-container img {
+    height: auto;
+    width: 90%;
+}
+
+.content .flowchart-container .flowchart-img-container{
+    text-align: center;
+}
+
+.content .flowchart-container .flow-chart-img {
+    height: auto;
+    width: 70%;
+}
