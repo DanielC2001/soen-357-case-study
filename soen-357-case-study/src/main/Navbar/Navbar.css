@@ -1,6 +1,7 @@
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
+    background-image: linear-gradient(to right, black,#002e47, #1c6fd1);
     overflow: hidden;
     z-index: 1;
 }
