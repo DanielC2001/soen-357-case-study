@@ -13,6 +13,10 @@ import CreateEventPageWF from '../../imgs/wireframes/Create-Event.png';
 import FriendsPageWF from '../../imgs/wireframes/Friends.png';
 import TextChatPageWF from '../../imgs/wireframes/Text-Chat.png';
 import UserFlowChart from '../../imgs/flow-charts/UserFlow-Chart.png';
+import InformationArchitecture from '../../imgs/information-architectures/Information-Architecture.png';
+import Typography from '../../imgs/typography/typography.png';
+import ColorPalette from '../../imgs/color-palettes/color-palette.png';
+import HomePage from '../../imgs/final-design/Final-Home-Page.png';
 
 import "react-multi-carousel/lib/styles.css";
 
@@ -86,6 +90,19 @@ const Designs = () => {
               </div>
               <p>After developing personas, we noticed that in our personas and both in the conducted research that it was important to ensure that naviagtion of the app was simple. If navigating is too complex, then no matter the amount of features we have in the app, elderly users will not use it. Therefore, we began brainstorming on how we could design the app with simple navigation while combining the physical health and social health features we want in the app.</p>
             </div>
+            <div className='information-arch-container'>
+              <h3>Information Architecture</h3>
+              <div className='information-arch-img-container'>
+                <img src={InformationArchitecture} alt='' className='info-arch-img'/>
+              </div>
+            </div>
+            <div className='typography-container'>
+              <h3>Typography</h3>
+              <div className='typography-container'>
+                <img src={Typography} alt='' className='typography-img'/>
+              </div>
+              <p>Calibri is a modern sans-serif typeface designed by Lucas de Groot. Introduced in 2004, Calibri quickly gained popularity due to its clean and approachable appearance. Its rounded letterforms and generous spacing contribute to excellent legibility both on screen and in print. Calibri has become a default font choice for many applications, thanks to its contemporary aesthetic and versatility across various text sizes. It conveys a sense of professionalism and readability, making it suitable for a wide range of purposes from documents and presentations to web design and branding.</p>
+            </div>
             <br/>
             <div className='wireframes-container'>
                 <h3>Wireframes</h3>
@@ -97,6 +114,32 @@ const Designs = () => {
                     showDots
                 >
                     <img src={LoginPageWF} alt='' className='small-imgs'/>
+                    <img src={RegisterPageWF} alt='' className='small-imgs'/>
+                    <img src={RegisterPagePt2WF} alt='' className='small-imgs'/>
+                    <img src={HomePageWF} alt='' className='small-imgs'/>
+                    <img src={HealthPageWF} alt='' className='small-imgs'/>
+                    <img src={ActivitesPageWF} alt='' className='small-imgs'/>
+                    <img src={GolfEventPageWF} alt='' className='small-imgs'/>
+                    <img src={CreateEventPageWF} alt='' className='small-imgs'/>
+                    <img src={FriendsPageWF} alt='' className='small-imgs'/>
+                    <img src={TextChatPageWF} alt='' className='small-imgs'/>
+                </Carousel>
+            </div>
+            <div className='color-palette-container'>
+              <h3>Color Palette</h3>
+              <div className='color-palette-container'>
+                <img src={ColorPalette} alt='' className='color-palette-img' width={700}/>
+              </div>
+            </div>
+            <div className='wireframes-container'>
+                <h3>Final Design</h3>
+
+                <Carousel
+                    responsive={responsiveWF}
+                    arrows
+                    showDots
+                >
+                    <img src={HomePage} alt='' className='small-imgs'/>
                     <img src={RegisterPageWF} alt='' className='small-imgs'/>
                     <img src={RegisterPagePt2WF} alt='' className='small-imgs'/>
                     <img src={HomePageWF} alt='' className='small-imgs'/>
