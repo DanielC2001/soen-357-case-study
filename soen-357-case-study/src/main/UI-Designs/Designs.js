@@ -16,7 +16,16 @@ import UserFlowChart from '../../imgs/flow-charts/UserFlow-Chart.png';
 import InformationArchitecture from '../../imgs/information-architectures/Information-Architecture.png';
 import Typography from '../../imgs/typography/typography.png';
 import ColorPalette from '../../imgs/color-palettes/color-palette.png';
+import LoginPage from '../../imgs/final-design/Final-Login.png';
+import RegisterPage from '../../imgs/final-design/Final-Register.png';
+import RegisterPagePt2 from '../../imgs/final-design/Final-Register-pt2.png';
 import HomePage from '../../imgs/final-design/Final-Home-Page.png';
+import HealthPage from '../../imgs/final-design/Final-Health.png';
+import ActivitesPage from '../../imgs/final-design/Final-Activities.png';
+import GolfEventPage from '../../imgs/final-design/Final-Golf.png';
+import CreateEventPage from '../../imgs/final-design/Final-Create.png';
+import FriendsPage from '../../imgs/final-design/Final-Friends.png';
+import TextChatPage from '../../imgs/final-design/Final-Message.png';
 
 import "react-multi-carousel/lib/styles.css";
 
@@ -139,16 +148,16 @@ const Designs = () => {
                     arrows
                     showDots
                 >
+                    <img src={LoginPage} alt='' className='small-imgs'/>
+                    <img src={RegisterPage} alt='' className='small-imgs'/>
+                    <img src={RegisterPagePt2} alt='' className='small-imgs'/>
                     <img src={HomePage} alt='' className='small-imgs'/>
-                    <img src={RegisterPageWF} alt='' className='small-imgs'/>
-                    <img src={RegisterPagePt2WF} alt='' className='small-imgs'/>
-                    <img src={HomePageWF} alt='' className='small-imgs'/>
-                    <img src={HealthPageWF} alt='' className='small-imgs'/>
-                    <img src={ActivitesPageWF} alt='' className='small-imgs'/>
-                    <img src={GolfEventPageWF} alt='' className='small-imgs'/>
-                    <img src={CreateEventPageWF} alt='' className='small-imgs'/>
-                    <img src={FriendsPageWF} alt='' className='small-imgs'/>
-                    <img src={TextChatPageWF} alt='' className='small-imgs'/>
+                    <img src={HealthPage} alt='' className='small-imgs'/>
+                    <img src={ActivitesPage} alt='' className='small-imgs'/>
+                    <img src={GolfEventPage} alt='' className='small-imgs'/>
+                    <img src={CreateEventPage} alt='' className='small-imgs'/>
+                    <img src={FriendsPage} alt='' className='small-imgs'/>
+                    <img src={TextChatPage} alt='' className='small-imgs'/>
                 </Carousel>
             </div>
         </div>
