@@ -7,6 +7,10 @@
     top: calc(4% + 37px);
 }
 
+.content .designs-container button {
+    z-index: 0;
+}
+
 .content .designs-container h2 {
     padding-top: 49px;/* Height of navbar*/
 }

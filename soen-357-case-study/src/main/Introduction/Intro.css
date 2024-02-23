@@ -12,6 +12,10 @@
     margin-left: -1px;
 }
 
+.intro-component .intro-container .img-container img {
+    max-width: 100%;
+}
+
 .intro-component .intro-container .title-names-container {
     width: 50%;
     display: flex;
